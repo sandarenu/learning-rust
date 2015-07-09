@@ -1,0 +1,12 @@
+[package]
+name = "json"
+version = "0.1.0"
+authors = ["Chathurika Sandarenu <sandarenu@gmail.com>"]
+
+
+[dependencies]
+rustc-serialize = "*"
+
+[dependencies.chrono]
+version = "*"
+features = ["rustc-serialize"]
